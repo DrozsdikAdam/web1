@@ -1,0 +1,106 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    width: 100%;
+    background-color: #111;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+
+.container {
+    width: 50%;
+    float: right;
+    left: 0;
+    padding: 5px;
+    margin-right: 10px;
+}
+
+.nav {
+    float: right;
+    list-style-type: none;
+    display: flex;
+    gap: 10px;
+}
+
+.nav-item {
+    color: aliceblue;
+    font-size: 1rem;
+    padding: 2px;
+    border-radius: 5px;
+}
+
+.nav-item:hover {
+    color: rgb(188, 188, 189);
+    border: 2px inset white;
+}
+
+.Logoconatiner {
+    width: 50%;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.Logoconatiner p {
+    color: white;
+    padding: 5px;
+}
+
+a {
+    padding: 7px;
+    text-decoration: none;
+    color: inherit;
+}
+
+#fsec {
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 40px;
+}
+
+.text {
+    margin: auto;
+    text-align: center;
+}
+
+title {
+    text-shadow: 5px 5px black;
+    margin: auto;
+    text-align: center;
+}
+
+td {
+    padding: 20px;
+    border: 2px solid transparent;
+    border-image: linear-gradient(to bottom right, #1a98ff, #e100ff);
+    border-image-slice: 1;
+    aspect-ratio: 1/1;
+    width: 15px;
+    height: auto;
+}
+
+td:hover {
+    background: linear-gradient(to bottom right, #1a98ff, #e100ff);
+}
+
+.table {
+    margin: auto;
+    margin-bottom: 30px;
+}
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card{
+    height: 100px;
+    width: 33%;
+    margin: 5px;
+    background-color: #1a98ff;
+}
